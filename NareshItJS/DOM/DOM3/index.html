@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Books</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Amazing Books</div>
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search books...">
+            <button onclick="searchBooks()" class="search-button">Search</button>
+            <button onclick="modal()" id="addBookButton" class="add-book-button">Add Book</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="addBookForm" style="display: none;">
+            <h2>Add a New Book</h2>
+            <form id="bookForm">
+                <label for="bookTitle">Title:</label>
+                <input type="text" id="bookTitle" required>
+
+                <label for="bookAuthor">Author:</label>
+                <input type="text" id="bookAuthor" required>
+
+                <label for="bookYear">Year:</label>
+                <input type="number" id="bookYear" required>
+
+                <label for="bookImage">Image URL:</label>
+                <input type="url" id="bookImage" required>
+
+                <label for="bookLink">Read More Link:</label>
+                <input type="url" id="bookLink" required>
+
+                <button type="button" onclick="addNewBook()">Add Book</button>
+            </form>
+        </div>
+        <div id="bookGrid"></div>
+    </main>
+
+</body>
+<script src="main.js"></script>
+
+</html>

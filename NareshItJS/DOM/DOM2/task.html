@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            background: rgb(76, 212, 206);
+            height: 100px;
+            width: 40%;
+            margin-top: 2%;
+            margin: auto;
+            text-align: center;
+          
+
+        }
+        .box input{
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+      <div class="box" >
+            
+         <span id="countChar"></span>
+         <input type="text" name="text" id="chr" placeholder="enter any value">
+         <button onclick="click()">Click me</button>
+
+      </div>
+
+      <script>
+           let str = document.getElementById('chr');
+            str =str.value;
+         
+        function click(){
+               
+             document.getElementById('countChar').innerText=str.lenght(); 
+        }
+       
+
+
+      </script>
+</body>
+</html>

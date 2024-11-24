@@ -1,0 +1,10 @@
+JS 
+ --intror
+ -- js engine(callback, hoisting, exection , content ,window object etc....)
+ --number(math methids), string(temlate literal, default methods) boolean, undefined , null
+ --fucntion (nirmal, function return fnction, default parameters , res ,sperad, callback, clousre, fuctin expression ,arrow)
+ --Arrays ( basic , push, pop, shift unsgift ,splice, includes concat, reverse, sort, foreach, map, filter, some, every, reduce)
+ --Objects (dot, index, signature, object methods)
+ --DOM (document object Model)
+  --selection: getElementsbyTagName, getElementsByClassName, getElementById, qerySelector, querySelectorAll)
+  

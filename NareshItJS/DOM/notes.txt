@@ -1,0 +1,69 @@
+Date Nav 19 2024
+------------------------------------------------
+
+
+Document Object Model(DOM)==>
+ By default Bbrowser provides an Object an Object named 'Document' - it 
+ contains elemetns code so thtat we can change , manipulate, add/delete it 
+
+ ========================================================================
+ To Do this all, we need to do some basic DOM Activities :- 
+  1.DOM selection ==>
+
+      a.getElementsByTagName('element') : it select all te elemetns of respective  tag and return an array oof elemetns
+      b. getElementsByClassName('className') : it selects all the elemetns of class and return an array of element
+      c.getElementById('idName') : it can select  the only elemetn which containes respective id .
+      d.querySelector('query') : it selects the element with respective query by select only the first occurrence .
+      e.querySelectorAll('query') : it selects all the elements with respective query and return an array
+
+      ======================================================================================
+      in Dome , every element is also an Object
+
+     
+
+
+=============================================================
+  2.DOM manipulation:
+      
+      We can manipulate / update the element we selected. to manipulate we can use, 
+      1.textContent: textContent bring the text inside the element.
+      we ca even update it
+      Eg: 
+
+        <h1> Hello World</h1> 
+        <Script>  
+   const ele = Document.getElementsByTagName('h1)
+   ele.textContent = Bye Bye
+        </script>
+
+
+
+      2.InnerText: innerText brings the text inside te elements we ca eve update it but it also consider the stylesheet.
+       except in the case visibility hadeen for an element, innerText and textContent can be interechangeable.
+
+
+        Eg: 
+         
+                     
+           
+
+
+    ====================================================
+  3.DOM creation :
+     
+         
+ 
+
+
+
+
+
+
+
+
+
+  =========================================================================
+
+
+
+ 
